@@ -11,7 +11,7 @@
 
 ### Policy Management
 - [~] Policy Application (Online form)
-- [ ] Policy Types (Motor, Fire)
+- [~] Policy Types (Motor, Fire)
 - [ ] Policy Renewal
 - [ ] Policy Tracking
 - [ ] Policy Documents (Generation & Storage)
