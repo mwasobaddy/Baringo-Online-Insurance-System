@@ -19,7 +19,7 @@
 ### User Dashboards
 - [~] Policy Holder Dashboard
 - [~] Company Official Dashboard
-- [ ] Administrator Dashboard
+- [~] Administrator Dashboard
 
 ### Payment Processing (We will use simulation for the payment process)
 - [ ] Online Payment Gateway Integration
@@ -35,7 +35,7 @@
 - [ ] Claims Reports
 - [ ] Export Functionality (PDF/Excel)
 
-### Communication System
+### Communication System (For both email and sms we will use a simulation)
 - [ ] Email Notifications
 - [ ] SMS Integration
 - [ ] In-App Notifications
