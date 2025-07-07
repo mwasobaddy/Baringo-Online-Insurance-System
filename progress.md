@@ -10,7 +10,7 @@
 - [~] Session Management
 
 ### Policy Management
-- [ ] Policy Application (Online form)
+- [~] Policy Application (Online form)
 - [ ] Policy Types (Motor, Fire)
 - [ ] Policy Renewal
 - [ ] Policy Tracking
