@@ -18,10 +18,10 @@
 
 ### User Dashboards
 - [~] Policy Holder Dashboard
-- [ ] Company Official Dashboard
+- [~] Company Official Dashboard
 - [ ] Administrator Dashboard
 
-### Payment Processing
+### Payment Processing (We will use simulation for the payment process)
 - [ ] Online Payment Gateway Integration
 - [ ] Payment Methods (Card, Mobile Money)
 - [ ] Payment Tracking
