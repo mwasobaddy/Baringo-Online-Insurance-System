@@ -3,11 +3,11 @@
 ## 1. Core Modules & Features
 
 ### User Authentication & Authorization
-- [ ] Registration System
-- [ ] Login System
+- [~] Registration System
+- [~] Login System
 - [ ] Role-Based Access Control
-- [ ] Password Management
-- [ ] Session Management
+- [~] Password Management
+- [~] Session Management
 
 ### Policy Management
 - [ ] Policy Application (Online form)
