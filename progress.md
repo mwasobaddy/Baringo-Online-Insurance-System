@@ -17,7 +17,7 @@
 - [~] Policy Documents (Generation & Storage)
 
 ### User Dashboards
-- [ ] Policy Holder Dashboard
+- [~] Policy Holder Dashboard
 - [ ] Company Official Dashboard
 - [ ] Administrator Dashboard
 
