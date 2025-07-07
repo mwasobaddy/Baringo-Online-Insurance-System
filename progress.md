@@ -22,8 +22,8 @@
 - [~] Administrator Dashboard
 
 ### Payment Processing (We will use simulation for the payment process)
-- [ ] Online Payment Gateway Integration
-- [ ] Payment Methods (Card, Mobile Money)
+- [~] Online Payment Gateway Integration (Simulation)
+- [~] Payment Methods (Card, Mobile Money) (Simulation)
 - [ ] Payment Tracking
 - [ ] Premium Calculations
 - [ ] Payment Reminders
