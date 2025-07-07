@@ -51,15 +51,15 @@
 - [ ] Payment Gateway: Local providers
 - [ ] Email Service: SMTP
 
-## 3. Database Schema
-- [ ] Users Table
+### 3. Database Schema
+- [~] Users Table
 - [ ] Roles & Permissions
-- [ ] Policies Table
-- [ ] Policy Types Table
-- [ ] Payments Table
-- [ ] Claims Table
-- [ ] Notifications Table
-- [ ] Audit Logs Table
+- [x] Policies Table
+- [x] Policy Types Table
+- [x] Payments Table
+- [x] Claims Table
+- [x] Notifications Table
+- [x] Audit Logs Table
 
 ## 4. UI/UX & Accessibility
 - [ ] Responsive Design
