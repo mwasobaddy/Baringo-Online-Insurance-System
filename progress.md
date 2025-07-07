@@ -24,8 +24,8 @@
 ### Payment Processing (We will use simulation for the payment process)
 - [~] Online Payment Gateway Integration (Simulation)
 - [~] Payment Methods (Card, Mobile Money) (Simulation)
-- [ ] Payment Tracking
-- [ ] Premium Calculations
+- [~] Payment Tracking (Simulation)
+- [~] Premium Calculations (Simulation)
 - [ ] Payment Reminders
 
 ### Reporting & Analytics
