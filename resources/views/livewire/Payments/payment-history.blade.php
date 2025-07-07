@@ -18,3 +18,16 @@ class PaymentHistory extends Component
             ->get();
     }
 }
+?>
+
+<ul>
+    @foreach($payments as $payment)
+        <li>
+            Policy #: {{ $payment->policy->policy_number ?? 'N/A' }}<br>
+            Amount: KES {{ number_format($payment->amount, 2) }}<br>
+            Method: {{ ucfirst($payment->payment_method) }}<br>
+            Status: {{ ucfirst($payment->status) }}<br>
+            Paid At: {{ $payment->paid_at }}
+        </li>
+    @endforeach
+</ul>

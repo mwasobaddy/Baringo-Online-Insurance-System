@@ -19,3 +19,16 @@ class PolicyTracking extends Component
             ->get();
     }
 }
+?>
+
+<ul>
+    @foreach($policies as $policy)
+        <li>
+            Policy #: {{ $policy->policy_number }}<br>
+            Type: {{ $policy->policyType->name ?? 'N/A' }}<br>
+            Status: {{ $policy->status }}<br>
+            Start: {{ $policy->start_date }}<br>
+            End: {{ $policy->end_date }}
+        </li>
+    @endforeach
+</ul>

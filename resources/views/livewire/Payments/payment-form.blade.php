@@ -61,3 +61,30 @@ class PaymentForm extends Component
         $this->status = '';
     }
 }
+?>
+
+<form wire:submit="processPayment">
+    <label for="policy_id">Select Policy</label>
+    <select wire:model="policy_id" id="policy_id" required>
+        <option value="">Select Policy</option>
+        @foreach($policies as $policy)
+            <option value="{{ $policy->id }}">{{ $policy->policy_number }}</option>
+        @endforeach
+    </select>
+    <label for="amount">Amount</label>
+    <input type="number" wire:model="amount" id="amount" required min="0">
+    <label for="payment_method">Payment Method</label>
+    <select wire:model="payment_method" id="payment_method" required>
+        <option value="">Select Method</option>
+        <option value="mpesa">M-Pesa (Simulation)</option>
+        <option value="airtel">Airtel Money (Simulation)</option>
+        <option value="card">Card (Simulation)</option>
+    </select>
+    <button type="submit">Pay</button>
+</form>
+@if(session('success'))
+    <div class="alert alert-success">{{ session('success') }}</div>
+@endif
+@if(session('error'))
+    <div class="alert alert-danger">{{ session('error') }}</div>
+@endif

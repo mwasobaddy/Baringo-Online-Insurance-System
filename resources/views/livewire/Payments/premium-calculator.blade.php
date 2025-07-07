@@ -29,3 +29,20 @@ class PremiumCalculator extends Component
         $this->calculated_premium = $type->base_premium + (0.02 * $this->coverage_amount);
     }
 }
+?>
+
+<form wire:submit="calculatePremium">
+    <label for="policy_type_id">Policy Type</label>
+    <select wire:model="policy_type_id" id="policy_type_id" required>
+        <option value="">Select Type</option>
+        @foreach($policyTypes as $type)
+            <option value="{{ $type->id }}">{{ $type->name }}</option>
+        @endforeach
+    </select>
+    <label for="factors">Factors</label>
+    <input type="text" wire:model="factors" id="factors" placeholder="e.g. age, location">
+    <button type="submit">Calculate</button>
+</form>
+@if($premium)
+    <div class="alert alert-info">Calculated Premium: KES {{ number_format($premium, 2) }}</div>
+@endif
