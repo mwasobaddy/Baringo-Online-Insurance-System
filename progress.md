@@ -26,14 +26,14 @@
 - [~] Payment Methods (Card, Mobile Money) (Simulation)
 - [~] Payment Tracking (Simulation)
 - [~] Premium Calculations (Simulation)
-- [ ] Payment Reminders
+- [x] Payment Reminders (Simulation)
 
 ### Reporting & Analytics
-- [ ] Policy Reports
-- [ ] Financial Reports
-- [ ] User Analytics
-- [ ] Claims Reports
-- [ ] Export Functionality (PDF/Excel)
+- [~] Policy Reports (Simulation)
+- [~] Financial Reports (Simulation)
+- [~] User Analytics (Simulation)
+- [~] Claims Reports (Simulation)
+- [~] Export Functionality (Simulation)
 
 ### Communication System (For both email and sms we will use a simulation)
 - [ ] Email Notifications
