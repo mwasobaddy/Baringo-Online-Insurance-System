@@ -5,7 +5,7 @@
 ### User Authentication & Authorization
 - [~] Registration System
 - [~] Login System
-- [ ] Role-Based Access Control
+- [~] Role-Based Access Control
 - [~] Password Management
 - [~] Session Management
 
@@ -53,7 +53,7 @@
 
 ### 3. Database Schema
 - [~] Users Table
-- [ ] Roles & Permissions
+- [~] Roles & Permissions
 - [x] Policies Table
 - [x] Policy Types Table
 - [x] Payments Table
