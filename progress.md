@@ -36,10 +36,10 @@
 - [~] Export Functionality (Simulation)
 
 ### Communication System (For both email and sms we will use a simulation)
-- [ ] Email Notifications
-- [ ] SMS Integration
-- [ ] In-App Notifications
-- [ ] Feedback System
+- [~] Email Notifications (Simulation)
+- [~] SMS Integration (Simulation)
+- [~] In-App Notifications (Simulation)
+- [~] Feedback System (Simulation)
 
 ## 2. Technical & System Requirements
 - [ ] Backend: Laravel 12.19.3
