@@ -53,7 +53,7 @@
 
 ### 3. Database Schema
 - [~] Users Table
-- [~] Roles & Permissions
+- [x] Roles & Permissions
 - [x] Policies Table
 - [x] Policy Types Table
 - [x] Payments Table
